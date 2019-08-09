@@ -1,0 +1,25 @@
+.header {
+    height: 85px;
+
+    .navbar {
+        height: 85px;
+        padding: 0;
+
+        img {
+            width: 252px;
+        }
+
+        .navbar-brand {
+            padding: 0;
+        }
+    }
+
+    .btn-outline-primary.btn-custom {
+        color: $brand-app;
+        &:hover {
+            color: $brand-app;
+            background-color: transparent;
+        }
+        
+    }
+}
