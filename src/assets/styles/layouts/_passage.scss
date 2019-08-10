@@ -1,0 +1,10 @@
+.passage {
+    margin: 30px 0;
+}
+
+@include media-breakpoint-up(sm) {
+    .passage {
+        margin: 70px 0;
+    }   
+}
+
