@@ -13,7 +13,7 @@
 
 .contact-boxes {
     width: 100%;
-    
+
     .contact-box {
         height: 350px;
         margin-right: 10px;
@@ -27,7 +27,7 @@
             height: 120px;
             overflow: hidden;
 
-            
+
         }
 
         img {
@@ -47,10 +47,10 @@
             height: 120px;
             border-radius: 50%;
             z-index: 0;
-        } 
-        
-        
-        
+        }
+
+
+
         .contact-box-text {
             margin-top: 20px;
             width: 250px;
@@ -60,21 +60,30 @@
             font-size: 20px;
         }
     }
+
     .box-1 {
         &:after {
             background-color: #809EC5;
         }
     }
+
     .box-2 {
         &:after {
             background-color: #C79C04;
         }
     }
+
     .box-3 {
         &:after {
             background-color: #65B3AF;
         }
     }
+
+    .box-4 {
+        &:after {
+            background-color: rgb(116, 28, 193);
+        }
+     }
 }
 
 
@@ -86,7 +95,7 @@
         .contact-cta {
             margin: 0 auto 50px auto;
             padding: 0;
-            
+
             h3 {
                 font-size: 24px;
             }
@@ -97,7 +106,7 @@
 
         .contact-box {
             width: 175px;
-            
+
 
             h4 {
                 font-size: 17px;
@@ -110,26 +119,32 @@
             &:after {
                 left: 18px;
                 top: -8px;
-            } 
+            }
 
             .contact-box-text {
                 width: auto;
             }
         }
 
-        .box-1, .box-2 , .box-3{
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
             margin-left: 10px;
             margin-right: 10px;
         }
 
-        
+
     }
 }
 
 @include media-breakpoint-up(md) {
     .contact-boxes {
-        
-        .box-1, .box-2 , .box-3{
+
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
             margin-left: 30px;
             margin-right: 30px;
         }

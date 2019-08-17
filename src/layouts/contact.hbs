@@ -11,7 +11,7 @@
                         <img src="./assets/images/martina_burgard-wiggermann.jpg" alt="">
                     </div>
                     <div class="contact-box-text">
-                      {{> ../content/1_contact_content }}
+                        {{> ../content/1_contact_content }}
                     </div>
                 </div>
                 <div class="contact-box box-2 d-flex flex-column align-items-center justify-content-start">
@@ -19,7 +19,7 @@
                         <img src="./assets/images/buelent_kocakaya.jpg" alt="">
                     </div>
                     <div class="contact-box-text">
-                      {{> ../content/2_contact_content }}
+                        {{> ../content/2_contact_content }}
                     </div>
                 </div>
                 <div class="contact-box box-3 d-flex flex-column align-items-center justify-content-start">
@@ -27,9 +27,19 @@
                         <img src="./assets/images/sabrina_witkowski.jpg" alt="">
                     </div>
                     <div class="contact-box-text">
-                      {{> ../content/3_contact_content }}
+                        {{> ../content/3_contact_content }}
                     </div>
                 </div>
+                {{#if extendet }}
+                <div class="contact-box box-4 d-flex flex-column align-items-center justify-content-start">
+                    <div class="contact-box-image">
+                        <img src="./assets/images/sabrina_witkowski.jpg" alt="">
+                    </div>
+                    <div class="contact-box-text">
+                        {{> ../content/4_contact_content }}
+                    </div>
+                </div>
+                {{/if}}
             </div>
         </div>
     </div>
