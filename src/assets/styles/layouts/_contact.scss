@@ -1,3 +1,16 @@
+.contact {
+    margin-top: 40px;
+
+    .contact-cta {
+        margin: 0 auto 30px auto;
+        padding: 0 15px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+}
+
 .contact-boxes {
     width: 100%;
     
@@ -33,12 +46,13 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            background-color: $brand-app;
             z-index: 0;
         } 
         
+        
+        
         .contact-box-text {
-            margin-top: 40px;
+            margin-top: 20px;
             width: 250px;
         }
 
@@ -46,12 +60,41 @@
             font-size: 20px;
         }
     }
+    .box-1 {
+        &:after {
+            background-color: #809EC5;
+        }
+    }
+    .box-2 {
+        &:after {
+            background-color: #C79C04;
+        }
+    }
+    .box-3 {
+        &:after {
+            background-color: #65B3AF;
+        }
+    }
 }
 
 
 @include media-breakpoint-up(sm) {
+
+    .contact {
+        margin-top: 0;
+
+        .contact-cta {
+            margin: 0 auto 50px auto;
+            padding: 0;
+            
+            h3 {
+                font-size: 24px;
+            }
+        }
+    }
+
     .contact-boxes {
-        
+
         .contact-box {
             width: 175px;
             
