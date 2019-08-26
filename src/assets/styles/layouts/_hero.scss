@@ -29,7 +29,7 @@
 
     .hero-main {
         margin-left: 10px;
-        margin-top: 50px;
+        margin-top: 70px;
 
 
         h1 {
@@ -94,10 +94,15 @@
         right: 20px;
         left: auto;
 
-        a {
+        a,
+        p {
             color: #fff;
             margin-right: 10px;
             text-decoration: none;
+        }
+
+        p {
+            font-size: 10px;
         }
 
         svg {
