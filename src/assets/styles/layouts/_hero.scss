@@ -60,31 +60,31 @@
             white-space: pre-wrap;
 
 
-            &:before {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: 100%;
-                bottom: 0;
-                width: 5px;
-                background-color: #fff;
-            }
+            // &:before {
+            //     content: "";
+            //     position: absolute;
+            //     top: 0;
+            //     right: 100%;
+            //     bottom: 0;
+            //     width: 5px;
+            //     background-color: #fff;
+            // }
 
         }
 
-        .hero-title-span2,
-        h2>span {
+        // .hero-title-span2,
+        // h2>span {
 
-            &:after {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 100%;
-                bottom: 0;
-                width: 0.25em;
-                background-color: #fff;
-            }
-        }
+        //     &:after {
+        //         content: "";
+        //         position: absolute;
+        //         top: 0;
+        //         left: 100%;
+        //         bottom: 0;
+        //         width: 0.25em;
+        //         background-color: #fff;
+        //     }
+        // }
     }
 
     .hero-contact {
